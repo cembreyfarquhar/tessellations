@@ -12,7 +12,6 @@ class Home extends React.Component {
     return (
       <div className="homePage">
         <Header />
-        <h2 id="grad1">Tessellations</h2>
       </div>
     );
   }

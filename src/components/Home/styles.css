@@ -1,25 +1,8 @@
-.homePage {
-    background-image: url("../../img/home-background.jpg");
-    width: 100vw;
-    height: 100vh;
-    background-size: 10%;
-    background-position: center;
-}
 
 
-#grad1 {
-    background: red;
-    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
-    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 10vw;
-    text-align: center;
-}
 
 @media only screen and (max-width: 600px) {
-    
+    .homePage{
+        background-size: 25%;
+    }
 }

@@ -2,27 +2,54 @@
   width: 100vw;
   display: flex;
   justify-content: center;
-  height: 150px;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navigation {
+  width: 100%;
+}
+
+h1 {
+  font-size: 6.4em;
 }
 
 .nav {
   display: flex;
-  justify-content: space-between;
-  width: 70%;
+  justify-content: space-evenly;
+  width: 100%;
   align-items: center;
-  margin-bottom: 5px;
+  overflow: hidden;
+  border: 1px solid black;
+  border-color: gray;
 }
 
 .nav a {
   text-decoration: none;
-  color: white;
-  font-size: 3.6em;
-  background-color: green;
-  border-radius: 8px;
+  color: black;
+  font-size: 2.4em; 
+}
+
+span {
+  text-decoration: none;
+  color: black;
+  font-size: 2.4em; 
+}
+
+span:hover {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
-    .nav a {
-      font-size: 24px;
-    }
+  
+    
+}
+
+.artExpanded, .clothingExpanded, .jewelryExpanded, .craftsExpanded {
+  display: none;
+}
+
+.expanded {
+  display: block;
 }

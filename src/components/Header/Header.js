@@ -11,6 +11,7 @@ class Header extends React.Component {
   render() {
     return (
       <header className="header">
+        <h1 id="grad1">Tessellations</h1>
         <Nav />
       </header>
     );
