@@ -37,10 +37,12 @@ class Nav extends React.Component {
       clothing: {
         clicked: false,
         class: ""
-      }, jewelry: {
+      },
+      jewelry: {
         clicked: false,
         class: ""
-      }, crafts: {
+      },
+      crafts: {
         clicked: false,
         class: ""
       }
@@ -67,10 +69,12 @@ class Nav extends React.Component {
       art: {
         clicked: false,
         class: ""
-      }, jewelry: {
+      },
+      jewelry: {
         clicked: false,
         class: ""
-      }, crafts: {
+      },
+      crafts: {
         clicked: false,
         class: ""
       }
@@ -97,10 +101,12 @@ class Nav extends React.Component {
       clothing: {
         clicked: false,
         class: ""
-      }, art: {
+      },
+      art: {
         clicked: false,
         class: ""
-      }, crafts: {
+      },
+      crafts: {
         clicked: false,
         class: ""
       }
@@ -127,10 +133,12 @@ class Nav extends React.Component {
       clothing: {
         clicked: false,
         class: ""
-      }, jewelry: {
+      },
+      jewelry: {
         clicked: false,
         class: ""
-      }, art: {
+      },
+      art: {
         clicked: false,
         class: ""
       }
@@ -157,21 +165,21 @@ class Nav extends React.Component {
       <div className="navigation">
         <nav className="nav">
           <span>home</span>
-          <span onMouseOver={this.expandArt}>art</span>
-          <span onMouseOver={this.expandClothing}>clothing</span>
-          <span onMouseOver={this.expandJewelry}>jewelry</span>
-          <span onMouseOver={this.expandCrafts}>crafts</span>
+          <span onClick={this.expandArt}>art</span>
+          <span onClick={this.expandClothing}>clothing</span>
+          <span onClick={this.expandJewelry}>jewelry</span>
+          <span onClick={this.expandCrafts}>crafts</span>
         </nav>
-        <div onMouseOut={this.expandArt} className={`artExpanded ${this.state.art.class}`}>
+        <div className={`artExpanded ${this.state.art.class}`}>
           <h2>Art stuff</h2>
         </div>
-        <div onMouseOut={this.expandClothing} className={`clothingExpanded ${this.state.clothing.class}`}>
+        <div className={`clothingExpanded ${this.state.clothing.class}`}>
           <h2>clothes</h2>
         </div>
-        <div onMouseOut={this.expandJewelry} className={`jewelryExpanded ${this.state.jewelry.class}`}>
+        <div className={`jewelryExpanded ${this.state.jewelry.class}`}>
           <h2>Jewels</h2>
         </div>
-        <div onMouseOut={this.expandCrafts} className={`craftsExpanded ${this.state.crafts.class}`}>
+        <div className={`craftsExpanded ${this.state.crafts.class}`}>
           <h2>Crafts :)</h2>
         </div>
       </div>

@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
+
 .header {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   height: 225px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute
+  font-family: 'Charmonman', cursive;
+
 }
 .navigation {
   width: 100%;
@@ -19,7 +22,8 @@ h1 {
 .nav {
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
+  width: 99%;
+  margin: 0 auto;
   align-items: center;
   overflow: hidden;
   border: 1px solid black;
@@ -43,7 +47,13 @@ span:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  
+  .expanded {
+    width: 100%;
+  }
+
+  .nav {
+    width: 90%;
+  }
     
 }
 
@@ -59,4 +69,5 @@ span:hover {
   width: 80%;
   border: 1px solid lightgray;
   height: 250px;
+  background: gray;
 }

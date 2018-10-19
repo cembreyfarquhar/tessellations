@@ -12,9 +12,9 @@ class App extends Component {
       <div className="App">
         <header className="App-header" />
         <Route exact path="/" render={props => <Home />} />
-        <Route exact path="/gallery" render={props => <Gallery {...props} />} />
-        <Route exact path="/store" render={props => <Store {...props} />} />
-        <Route exact path="/contact" render={props => <Contact {...props} />} />
+        <Route exact path="/art" render={props => <Gallery {...props} />} />
+        <Route exact path="/clothing" render={props => <Store {...props} />} />
+        <Route exact path="/jewelry" render={props => <Contact {...props} />} />
       </div>
     );
   }
