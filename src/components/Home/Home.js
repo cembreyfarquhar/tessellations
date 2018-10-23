@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../Header/Header";
 import "./styles.css";
-import mosaic from "./img/mosaic.jpg";
-import starwars from "./img/starwars.jpg"
+// import mosaic from "./img/mosaic.jpg";
+// import starwars from "./img/starwars.jpg"
 
 class Home extends React.Component {
   constructor() {
@@ -15,10 +15,8 @@ class Home extends React.Component {
       <div className="homePage">
         <Header />
         <div className="container">
-          <h2>Custom Mosaics</h2>
-          <div className="mosaics-banner">
-          <img src={mosaic} alt="custom mosaics" />
-          <img src={starwars} alt="custom mosaics" />
+          <div className="titleCard">
+            <h1>Tessellations</h1>
           </div>
         </div>
       </div>

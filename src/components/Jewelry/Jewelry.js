@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Header/Header"
 
-class Gallery extends React.Component {
+class Jewelry extends React.Component {
   constructor() {
     super();
     this.state = {};
@@ -9,12 +9,12 @@ class Gallery extends React.Component {
 
   render() {
     return (
-      <div className="galleryPage">
+      <div className="jewelryPage">
         <Header />
-        <h1>Gallery</h1>
+        <h1>Jewelry</h1>
       </div>
     );
   }
 }
 
-export default Gallery;
+export default Jewelry;

@@ -4,30 +4,27 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  height: 225px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: 'Charmonman', cursive;
-
 }
 .navigation {
   width: 100%;
 }
 
 h1 {
-  font-size: 6.4em;
+  font-size: 2.4em;
 }
 
 .nav {
   display: flex;
   justify-content: space-evenly;
-  width: 99%;
   margin: 0 auto;
   align-items: center;
   overflow: hidden;
-  border: 1px solid black;
-  border-color: gray;
+  border-right: none;
+  border-left: none;
 }
 
 .nav a {
@@ -47,27 +44,6 @@ span:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  .expanded {
-    width: 100%;
-  }
 
-  .nav {
-    width: 90%;
-  }
     
-}
-
-.artExpanded, .clothingExpanded, .jewelryExpanded, .craftsExpanded {
-  display: none;
-}
-
-.expanded {
-  display: block;
-  position: absolute;
-  left: 10%;
-  margin: 0 auto;
-  width: 80%;
-  border: 1px solid lightgray;
-  height: 250px;
-  background: gray;
 }

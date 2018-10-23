@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Header/Header"
 
-class Store extends React.Component {
+class Art extends React.Component {
   constructor() {
     super();
     this.state = {};
@@ -9,12 +9,12 @@ class Store extends React.Component {
 
   render() {
     return (
-      <div className="storePage">
+      <div className="artPage">
         <Header />
-        <h1>Store</h1>
+        <h1>Art</h1>
       </div>
     );
   }
 }
 
-export default Store;
+export default Art;

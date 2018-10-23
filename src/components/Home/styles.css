@@ -1,22 +1,35 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
 
 
 .homePage {
     width: 100%;
-    font-family: 'Roboto', sans-serif;
-
+    font-family: 'Charmonman', cursive;
 }
 
+.titleCard {
+    background: blue;
+    height: 30%;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+}
 
 .container {
     width: 80%;
     margin: 0 auto;
-    height: 65vh;
     margin-top: 25px;
+    border: 5px solid #1d7dd5;
+    height: 80vh;
+    /* background-color: #f5c900; */
+    background-image: url("./img/mosaic.jpg");
+    background-size: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h2 {
-    text-align: center;
+h1 {
+   font-size: 6rem; 
 }
 
 img {
